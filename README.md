@@ -5,7 +5,7 @@ This documentation will guide you on how to set up a SITL (Software in the loop)
 
 Let's get started by opening up the Terminal on your system and entering following the commands:
 
-## STEP 1
+## Step 1
 
 ```
 cd ~
