@@ -3,7 +3,7 @@ This documentation will guide you on how to set up a SITL (Software in the loop)
 
 ![F-lab](https://user-images.githubusercontent.com/78522341/106847388-cc341f80-66d4-11eb-9966-00c068135fcc.png)
 
-Let's get started by opening up the Terminal on you system and following the commands
+Let's get started by opening up the Terminal on your system and entering following the commands:
 
 ## STEP 1
 
@@ -18,7 +18,7 @@ bash ./Tools/setup/ubuntu.sh
 cd ~
 curl -sSL http://get.gazebosim.org | sh
 ```
-Visit <a href="http://gazebosim.org/tutorials?tut=install_ubuntu">Gazebo</a> website for Alternative installation
+Visit <a href="http://gazebosim.org/tutorials?tut=install_ubuntu">Gazebo website</a> for Alternative installation
 
 ## Step 3
 
@@ -27,7 +27,7 @@ Now cd into the PX4-Autopilot directory
 cd PX4-Autopilot
 make px4_sitl gazebo //QuadCopter
 ```
-You can visit <a href="https://docs.px4.io/master/en/simulation/gazebo.html">PX4</a> website for more models
+You can visit <a href="https://docs.px4.io/master/en/simulation/gazebo.html">PX4 website</a> for more models.
 
 The terminal may prompt you to install some python modules during this installation.
 for example
@@ -57,11 +57,11 @@ sudo usermod -a -G dialout $USER
 sudo apt-get remove modemmanager -y
 sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl -y
 ```
-2. Logout and login again to enable the change to user permissions on your Ubuntu Machine
+2. Logout and Login again to enable the change to user permissions on your Ubuntu Machine
 
 3. Download <a href="https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage">QGroundControl</a>
 
-4. cd into the folder where QGroundControl was downloaded and execute this commands
+4. cd into the folder where QGroundControl is saved and execute this commands:
 
 ```
 cd ~
